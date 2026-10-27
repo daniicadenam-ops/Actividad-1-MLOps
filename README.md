@@ -75,3 +75,23 @@ Desde la raíz del repositorio:
 cd services
 docker compose down
 ```
+
+## Estructura del repositorio
+
+Esa estructura refleja las carpetas principales que aparecen en GitHub. Si quieres que el README describa con precisión qué contiene cada una, comparte una captura del explorador de archivos o el resultado de `tree /F /A` ejecutado desde la raíz del repositorio.
+
+
+```text
+Actividad-1-MLOps/
+├── configs/       # Archivos de configuración
+├── data/          # Datos del proyecto
+├── flows/         # Flujos de Prefect
+├── scripts/       # Scripts auxiliares
+├── services/      # Docker Compose para MLflow y Prefect
+├── pyproject.toml # Dependencias y configuración del proyecto
+├── poetry.lock    # Versiones bloqueadas de dependencias
+├── poetry.toml    # Configuración de Poetry
+└── README.md      # Instrucciones del proyecto
+```
+
+
