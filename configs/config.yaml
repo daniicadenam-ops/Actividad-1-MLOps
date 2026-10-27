@@ -2,7 +2,7 @@
 # Todo lo que puede cambiar (datos, modelo, MLflow) vive aquí, no en el código.
 
 datos:
-  ruta: /data/Customer-Churn-Records.csv   # relativa a actividades/actividad-1/
+  ruta: ./data/Customer-Churn-Records.csv   # relativa a actividades/actividad-1/
 
 division:
   test_size: 0.2
